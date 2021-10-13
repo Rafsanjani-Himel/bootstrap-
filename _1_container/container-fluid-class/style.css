@@ -1,0 +1,10 @@
+.container-fluid{
+    background-color: red;
+    
+}
+.container-fluid h2{
+    color: green;
+}
+.container-fluid p{
+    color: wheat;
+}

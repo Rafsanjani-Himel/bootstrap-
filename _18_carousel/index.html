@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carousel</title>
+    https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        #feedback{
+            background-color: #0d0442;
+            padding: 7% 10%;  
+        }
+
+        .hr-style{
+            border: 5px dotted white;
+            border-bottom: none;
+            width: 60px;
+            margin: 0 auto;            
+        }
+
+        .carousel-item{
+            padding: 5% 15%;
+            text-align: center;
+            font-style: italic;
+        }
+
+        .feedback-img{
+            width: 120px;
+            height: auto;
+
+        }
+        .carousel-indicators{
+            bottom: -20px;
+        }
+       
+    </style>
+</head>
+<body>
+    <div class="container text-white">
+
+        <section id="feedback">
+
+            <div class="section-title">
+                <h3 class="text-center">feedback</h3>
+                <p class="hr-style"></p>
+            </div>
+
+            <div class="row">
+                <div class="col-lg-12">
+                    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" data-interval="2000" data-pause="hover">
+                        <ol class="carousel-indicators">
+                          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                        </ol>
+
+                        <div class="carousel-inner">
+                          <div class="carousel-item active">
+                            <p>1.Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quia ducimus eum ut perspiciatis ab officia accusantium sint, eos quae iste!</p>
+                            <img src="/images/himel.jpg" class="mb-3 feedback-img rounded-circle" alt="">
+                            <h6>Rafsanjani Hieml</h6>
+                        </div>
+                          <div class="carousel-item">
+                            <p>2.Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quia ducimus eum ut perspiciatis ab officia accusantium sint, eos quae iste!</p>
+                            <img src="/images/himel.jpg" class=" mb-3 feedback-img rounded-circle" alt="">
+                            <h6>Rafsanjani Hieml</h6>
+                          </div>
+                          <div class="carousel-item">
+                            <p>3.Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quia ducimus eum ut perspiciatis ab officia accusantium sint, eos quae iste!</p>
+                            <img src="/images/himel.jpg" class=" mb-3 feedback-img rounded-circle" alt="">
+                            <h6>Rafsanjani Hieml</h6>
+                          </div>
+
+                        </div>
+                        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                          <span class="sr-only"></span>
+                        </a>
+                        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                          <span class="sr-only"></span>
+                        </a>
+                      </div>
+                </div>
+            </div>
+
+            
+
+        </section>
+    </div>
+
+
+
+    
+
+
+    
+    
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  
+</body>
+</html>
